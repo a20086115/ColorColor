@@ -1,0 +1,32 @@
+#beginDiv{
+	height: 10rem;
+}
+#beginBtn{
+	margin-left: 40%;
+}
+#overDiv
+{
+	height: 10rem;
+	display: none;
+}
+.container{
+	display: none;
+}
+header{
+	height: 2rem;
+}
+#seconds{
+	
+	margin-left: 40%;
+}
+#pauseBtn{
+	float: right;
+}
+#div1{
+	height: 3rem;
+	background-color: black;
+}
+#div2{
+	height: 3rem;
+	background-color: red;
+}
