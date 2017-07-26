@@ -11,29 +11,42 @@
 }
 .container{
 	display: none;
-	width: 10rem;
-	height: 12rem;
+	width: 8rem;
+	height: 9rem;
+	padding: 0px;
 }
 header{
-	height: 2rem;
+	height: 1rem;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-around;
+	padding-bottom: 1px;
+}
+#scores
+{
+	line-height: 1rem;
+	color: orangered;
 }
 #seconds{
-	
-	margin-left: 40%;
+	line-height: 1rem;
+	color: orangered;
 }
 #pauseBtn{
-	float: right;
+	border: 1px solid black;
+	width: 25%;
+	
+	background-color: orangered;
 }
 #div1{
-	width: 10rem;
-	height: 10rem;
+	width: 8rem;
+	height:8rem;
 	background-color: lightgrey;
 }
+#div1:hover{
+	cursor: pointer;
+}
 .smallColor{
-	width: 50%;
-	height:50%;
 	float: left;
-	background-color: royalblue;
 	border: 1px solid white;
 	box-sizing: border-box;
 }
