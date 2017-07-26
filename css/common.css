@@ -11,6 +11,8 @@
 }
 .container{
 	display: none;
+	width: 10rem;
+	height: 12rem;
 }
 header{
 	height: 2rem;
@@ -23,10 +25,15 @@ header{
 	float: right;
 }
 #div1{
-	height: 3rem;
-	background-color: black;
+	width: 10rem;
+	height: 10rem;
+	background-color: lightgrey;
 }
-#div2{
-	height: 3rem;
-	background-color: red;
+.smallColor{
+	width: 50%;
+	height:50%;
+	float: left;
+	background-color: royalblue;
+	border: 1px solid white;
+	box-sizing: border-box;
 }

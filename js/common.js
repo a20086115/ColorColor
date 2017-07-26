@@ -35,7 +35,7 @@ $(function(){
 			clearInterval(timer);
 			status = 1;
 		} else {
-			console.log("继续！")
+			$(this).html("暂停");
 			status = 0;
 			timer = setInterval(setSeconds,1000);
 		}
