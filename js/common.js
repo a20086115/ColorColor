@@ -34,8 +34,10 @@ $(function(){
 		score = 0;
 		level =0;
 		$("#beginDiv").css("display","none");
+		$("#overDiv").css("display","none");
 		$(".container").css("display","block");
 		timer = setInterval(setSeconds,1000);
+		$("#scores").html("0分");
 		
 		//获取颜色偏差值，level越大，偏差越小
 		diffColor = colorDiff[level]? colorDiff[level] : 10;
@@ -126,9 +128,10 @@ function setSeconds(){
 	if(seconds ==0){
 		$(".container").css("display","none");
 		$("#beginDiv").css("display","block");
-		$("#beginBtn").html("重新开始（分数够高就截图给于文强看吧）");
+		$("#overDiv").css("display","block");
+		$("#beginBtn").html("重新开始");
 		$("#seconds").html("60秒");
-		$("#scores").html("0分");
+		$("#overDiv").html("您的最终成绩是"+score+"分!");
 		clearInterval(timer);
 	} else {
 		$("#seconds").html(seconds--+"秒");
