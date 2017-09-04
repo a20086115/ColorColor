@@ -16,7 +16,12 @@ function setRem() {
     if (!clientWidth) {
       return;
     }
-    docEl.style.fontSize = 50 * (clientWidth / 1080) + 'px';
+    console.log(clientWidth);
+    if(clientWidth>500){
+
+    } else {
+    docEl.style.fontSize = (clientWidth / 20) + 'px';
+    }
 }
 
 var seconds ;
